@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
-import Comments from "../../components/comments";
-import ProductActions from "../../components/productActions"; // Client Component for actions (favorites & home button)
+import Comments from "../../components/Comments";
+import ProductActions from "../../components/ProductActions"; // Client Component for actions (favorites & home button)
 
 const API_BASE_URL = "https://job-application.bitstarz.workers.dev";
 
